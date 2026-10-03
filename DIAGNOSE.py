@@ -10,7 +10,7 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 
-VERSION = "0.7.1"
+VERSION = "0.8.0"
 BASE = Path(__file__).resolve().parent
 LOGS = BASE / "logs"
 LOGS.mkdir(exist_ok=True)

@@ -1,10 +1,13 @@
 @echo off
-setlocal
+setlocal EnableExtensions
 cd /d "%~dp0"
-if exist ".venv\Scripts\python.exe" (
-  ".venv\Scripts\python.exe" SELF_TEST.py
-) else (
+set "PYTHONUTF8=1"
+set "PY="
+if exist ".venv\Scripts\python.exe" set "PY=.venv\Scripts\python.exe"
+if not defined PY (
   where py >nul 2>nul
-  if %errorlevel%==0 (py SELF_TEST.py) else (python SELF_TEST.py)
+  if not errorlevel 1 set "PY=py"
 )
+if not defined PY set "PY=python"
+"%PY%" SELF_TEST.py
 pause

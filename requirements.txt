@@ -3,3 +3,5 @@ pandas>=2.2
 requests>=2.32
 matplotlib>=3.9
 numba>=0.65
+# optional: only for tools/loadtest.py
+# psutil>=5.9

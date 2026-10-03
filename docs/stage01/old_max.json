@@ -1,0 +1,14 @@
+{
+ "mode": "v0.7.1",
+ "status": "stopped",
+ "spec": "3:262800,15:52560",
+ "depth": "Максимальный",
+ "workers": 3,
+ "run_seconds": 1218.1,
+ "samples": 609,
+ "parent_peak_mb": 653.9,
+ "worker_peak_mb": 355.4609375,
+ "total_peak_mb": 1706.3000000000002,
+ "rows_at_end": 578018,
+ "useful_at_end": 9826306
+}

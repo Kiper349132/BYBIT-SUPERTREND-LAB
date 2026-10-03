@@ -1,0 +1,14 @@
+{
+ "mode": "v0.8",
+ "status": "complete",
+ "spec": "1:790000",
+ "depth": "Глубокий",
+ "workers": 3,
+ "run_seconds": 184.8,
+ "samples": 93,
+ "parent_peak_mb": 300.7,
+ "worker_peak_mb": 295.5546875,
+ "total_peak_mb": 1158.5,
+ "rows_at_end": 32273,
+ "useful_at_end": 592161
+}

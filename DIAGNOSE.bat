@@ -1,17 +1,14 @@
 @echo off
-setlocal
+setlocal EnableExtensions
 cd /d "%~dp0"
 
-if exist ".venv\Scripts\python.exe" (
-  set "PY=.venv\Scripts\python.exe"
-) else (
+set "PY="
+if exist ".venv\Scripts\python.exe" set "PY=.venv\Scripts\python.exe"
+if not defined PY (
   where py >nul 2>nul
-  if %errorlevel%==0 (
-    set "PY=py"
-  ) else (
-    set "PY=python"
-  )
+  if not errorlevel 1 set "PY=py"
 )
+if not defined PY set "PY=python"
 
 echo Running Bybit connection diagnostic...
 "%PY%" DIAGNOSE.py

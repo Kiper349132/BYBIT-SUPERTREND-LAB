@@ -5,22 +5,33 @@ set "PYTHONUTF8=1"
 set "PIP_DISABLE_PIP_VERSION_CHECK=1"
 
 echo ==============================================
-echo  BYBIT SUPERTREND LAB v0.7.1
+echo  BYBIT SUPERTREND LAB v0.8.0
 echo ==============================================
 echo.
 
+rem NOTE: "if errorlevel 1" is evaluated when the line runs. v0.7.1 used
+rem %errorlevel% inside a parenthesised block, which is expanded when the whole
+rem block is parsed - without the "py" launcher START.bat always reported
+rem "Python was not found" even when python.exe was installed.
+set "PY="
 where py >nul 2>nul
-if %errorlevel%==0 (
-  set "PY=py"
-) else (
+if not errorlevel 1 set "PY=py"
+if not defined PY (
   where python >nul 2>nul
-  if not %errorlevel%==0 (
-    echo ERROR: Python was not found.
-    echo Install Python 3.11+ and enable Add Python to PATH.
-    pause
-    exit /b 1
-  )
-  set "PY=python"
+  if not errorlevel 1 set "PY=python"
+)
+if not defined PY (
+  echo ERROR: Python was not found.
+  echo Install Python 3.11+ and enable Add Python to PATH.
+  pause
+  exit /b 1
+)
+%PY% -c "import sys; sys.exit(0 if sys.version_info >= (3, 11) else 1)" >nul 2>nul
+if errorlevel 1 (
+  echo ERROR: Python 3.11 or newer is required.
+  %PY% --version
+  pause
+  exit /b 1
 )
 
 if not exist ".venv\Scripts\python.exe" (
