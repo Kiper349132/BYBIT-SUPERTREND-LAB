@@ -1,0 +1,38 @@
+{
+ "invariant_1": {
+  "N_tested": [
+   7991,
+   8855,
+   9329,
+   9928,
+   10854,
+   11014,
+   12085,
+   12568
+  ],
+  "failures": []
+ },
+ "validation_rewritten_search_decisions_identical": true,
+ "validation_rewritten_top_changed": true,
+ "holdout_rewritten_search_decisions_identical": true,
+ "holdout_rewritten_ranking_identical": true,
+ "holdout_rewritten_test_metrics_changed": true,
+ "appending_30_days_moves_boundaries": {
+  "research_start": [
+   3960,
+   4176
+  ],
+  "selection_end": [
+   7991,
+   8711
+  ],
+  "validation_start": [
+   7992,
+   8712
+  ],
+  "holdout_start": [
+   11015,
+   11735
+  ]
+ }
+}

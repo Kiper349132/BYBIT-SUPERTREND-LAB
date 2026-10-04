@@ -1,0 +1,362 @@
+[
+ {
+  "key": [
+   "60",
+   "BOTH",
+   3,
+   5.95
+  ],
+  "robust": 0.10284595296618719,
+  "research_ret": 45.74164596842611,
+  "trades": 66,
+  "closed_dd": 22.871114103770097,
+  "mtm_dd": 29.481385054749197,
+  "funding_pct_of_equity": 0.3986954842841661,
+  "fee_exact_extra_pct": -0.02124115619685254,
+  "sum_window_returns": 27.344190924436617,
+  "continuous_return": 45.74164596842611,
+  "holdout_ret": -6.232124137214823
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   62,
+   4.8
+  ],
+  "robust": 0.09197106591018077,
+  "research_ret": 30.26671993949406,
+  "trades": 41,
+  "closed_dd": 13.396284731348029,
+  "mtm_dd": 16.64482631901768,
+  "funding_pct_of_equity": 1.5703179593617378,
+  "fee_exact_extra_pct": -0.013058108916795319,
+  "sum_window_returns": 15.53759076394223,
+  "continuous_return": 30.26671993949406,
+  "holdout_ret": -9.912721562874404
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   68,
+   4.8
+  ],
+  "robust": 0.08486405020969424,
+  "research_ret": 30.022309843173222,
+  "trades": 41,
+  "closed_dd": 14.320747421330326,
+  "mtm_dd": 17.534612026778838,
+  "funding_pct_of_equity": 1.5340457468531021,
+  "fee_exact_extra_pct": -0.013088096769136399,
+  "sum_window_returns": 15.721335138295498,
+  "continuous_return": 30.022309843173222,
+  "holdout_ret": -9.912721562874404
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   2,
+   5.6
+  ],
+  "robust": 0.08087866809075349,
+  "research_ret": 43.7431562887848,
+  "trades": 45,
+  "closed_dd": 12.959054442459628,
+  "mtm_dd": 18.17600791758631,
+  "funding_pct_of_equity": 1.5473922355159486,
+  "fee_exact_extra_pct": -0.020165615088892704,
+  "sum_window_returns": 25.13877970526066,
+  "continuous_return": 43.7431562887848,
+  "holdout_ret": -11.170099137158672
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   74,
+   2.4
+  ],
+  "robust": 0.06970457787196907,
+  "research_ret": 31.23518219336292,
+  "trades": 108,
+  "closed_dd": 13.87583675360985,
+  "mtm_dd": 17.47892534675278,
+  "funding_pct_of_equity": 1.2607306194664052,
+  "fee_exact_extra_pct": -0.0187384048828978,
+  "sum_window_returns": 16.07120721405307,
+  "continuous_return": 31.23518219336292,
+  "holdout_ret": -14.315218154097098
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   77,
+   2.375
+  ],
+  "robust": 0.06879269356525969,
+  "research_ret": 27.75931699182803,
+  "trades": 111,
+  "closed_dd": 13.580583486681396,
+  "mtm_dd": 16.670130103744963,
+  "funding_pct_of_equity": 1.2553955207375158,
+  "fee_exact_extra_pct": -0.017299377624893676,
+  "sum_window_returns": 12.847304542146574,
+  "continuous_return": 27.75931699182803,
+  "holdout_ret": -15.83506688011822
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   2,
+   5.8
+  ],
+  "robust": 0.06615154336354817,
+  "research_ret": 38.46317726218729,
+  "trades": 44,
+  "closed_dd": 13.12558067848798,
+  "mtm_dd": 18.332553108255112,
+  "funding_pct_of_equity": 1.5394717181400632,
+  "fee_exact_extra_pct": -0.017970236206377582,
+  "sum_window_returns": 22.005443524288,
+  "continuous_return": 38.46317726218729,
+  "holdout_ret": -9.254559114341399
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   2,
+   6.8
+  ],
+  "robust": 0.06441468074083831,
+  "research_ret": 46.314731465746696,
+  "trades": 35,
+  "closed_dd": 14.695613481056558,
+  "mtm_dd": 20.067803796247695,
+  "funding_pct_of_equity": 1.4752438561344414,
+  "fee_exact_extra_pct": -0.018897120808864593,
+  "sum_window_returns": 24.448653457803616,
+  "continuous_return": 46.314731465746696,
+  "holdout_ret": -11.126753110062282
+ },
+ {
+  "key": [
+   "60",
+   "BOTH",
+   4,
+   5.55
+  ],
+  "robust": 0.06310948193326268,
+  "research_ret": 33.50572158873752,
+  "trades": 68,
+  "closed_dd": 22.87111410377005,
+  "mtm_dd": 29.481385054749154,
+  "funding_pct_of_equity": 0.3483618271498161,
+  "fee_exact_extra_pct": -0.021199778816199454,
+  "sum_window_returns": 22.178087954722628,
+  "continuous_return": 33.50572158873752,
+  "holdout_ret": -6.484757716648259
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   109,
+   2.45
+  ],
+  "robust": 0.06167404685215213,
+  "research_ret": 35.83051315993304,
+  "trades": 105,
+  "closed_dd": 15.167924993130022,
+  "mtm_dd": 17.656482999831614,
+  "funding_pct_of_equity": 1.2427271916729272,
+  "fee_exact_extra_pct": -0.0203913520350374,
+  "sum_window_returns": 17.38151837309173,
+  "continuous_return": 35.83051315993304,
+  "holdout_ret": -16.191524571146598
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   107,
+   2.45
+  ],
+  "robust": 0.06167404685215213,
+  "research_ret": 35.83051315993304,
+  "trades": 105,
+  "closed_dd": 15.167924993130022,
+  "mtm_dd": 17.656482999831614,
+  "funding_pct_of_equity": 1.2427271916729272,
+  "fee_exact_extra_pct": -0.0203913520350374,
+  "sum_window_returns": 17.38151837309173,
+  "continuous_return": 35.83051315993304,
+  "holdout_ret": -16.28389450887896
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   72,
+   2.4
+  ],
+  "robust": 0.0603676802089893,
+  "research_ret": 28.104384558519378,
+  "trades": 109,
+  "closed_dd": 15.860829032509105,
+  "mtm_dd": 19.38087353247323,
+  "funding_pct_of_equity": 1.266890241886358,
+  "fee_exact_extra_pct": -0.01748669835268825,
+  "sum_window_returns": 13.514182378111142,
+  "continuous_return": 28.104384558519378,
+  "holdout_ret": -14.315218154097098
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   112,
+   2.45
+  ],
+  "robust": 0.05892209337508905,
+  "research_ret": 37.32801821615082,
+  "trades": 105,
+  "closed_dd": 15.167924993130022,
+  "mtm_dd": 17.656482999831603,
+  "funding_pct_of_equity": 1.252752144891565,
+  "fee_exact_extra_pct": -0.021025642804074398,
+  "sum_window_returns": 18.78098652345963,
+  "continuous_return": 37.32801821615082,
+  "holdout_ret": -15.463100262902717
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   80,
+   2.4
+  ],
+  "robust": 0.058764875954758246,
+  "research_ret": 27.82479178455084,
+  "trades": 109,
+  "closed_dd": 13.580583486681375,
+  "mtm_dd": 16.789504235718244,
+  "funding_pct_of_equity": 1.2747541209202575,
+  "fee_exact_extra_pct": -0.017312303329931996,
+  "sum_window_returns": 13.301738863398484,
+  "continuous_return": 27.82479178455084,
+  "holdout_ret": -13.80974488037985
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   91,
+   2.4
+  ],
+  "robust": 0.05785066807074528,
+  "research_ret": 34.74549454762305,
+  "trades": 108,
+  "closed_dd": 13.580583486681352,
+  "mtm_dd": 16.115706326494962,
+  "funding_pct_of_equity": 1.2766521832312925,
+  "fee_exact_extra_pct": -0.02016071151206956,
+  "sum_window_returns": 15.775227197383613,
+  "continuous_return": 34.74549454762305,
+  "holdout_ret": -14.492512988596474
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   8,
+   4.9
+  ],
+  "robust": 0.05707109053400361,
+  "research_ret": 45.8075312578357,
+  "trades": 36,
+  "closed_dd": 15.243849070282845,
+  "mtm_dd": 20.70223934017311,
+  "funding_pct_of_equity": 1.508331556947411,
+  "fee_exact_extra_pct": -0.018765302836477753,
+  "sum_window_returns": 26.078223061797257,
+  "continuous_return": 45.8075312578357,
+  "holdout_ret": -15.79387288509887
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   89,
+   2.4
+  ],
+  "robust": 0.05647683841453502,
+  "research_ret": 34.52531363632405,
+  "trades": 108,
+  "closed_dd": 13.580583486681352,
+  "mtm_dd": 16.115706326494962,
+  "funding_pct_of_equity": 1.271083385073785,
+  "fee_exact_extra_pct": -0.02007583877457953,
+  "sum_window_returns": 15.59922885035724,
+  "continuous_return": 34.52531363632405,
+  "holdout_ret": -14.492512988596474
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   95,
+   2.475
+  ],
+  "robust": 0.05290113449710871,
+  "research_ret": 34.28822130000222,
+  "trades": 104,
+  "closed_dd": 15.41279382751003,
+  "mtm_dd": 17.986056107643243,
+  "funding_pct_of_equity": 1.243876881978917,
+  "fee_exact_extra_pct": -0.019707559705786037,
+  "sum_window_returns": 16.93646275967375,
+  "continuous_return": 34.28822130000222,
+  "holdout_ret": -14.29106248073947
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   93,
+   2.475
+  ],
+  "robust": 0.05290113449710871,
+  "research_ret": 34.28822130000222,
+  "trades": 104,
+  "closed_dd": 15.41279382751003,
+  "mtm_dd": 17.986056107643243,
+  "funding_pct_of_equity": 1.243876881978917,
+  "fee_exact_extra_pct": -0.019707559705786037,
+  "sum_window_returns": 16.93646275967375,
+  "continuous_return": 34.28822130000222,
+  "holdout_ret": -14.395238579540216
+ },
+ {
+  "key": [
+   "60",
+   "SHORT",
+   2,
+   7.0
+  ],
+  "robust": 0.052397949883301764,
+  "research_ret": 43.65034937546828,
+  "trades": 34,
+  "closed_dd": 16.525131642158154,
+  "mtm_dd": 21.88961442628007,
+  "funding_pct_of_equity": 1.4502334129893388,
+  "fee_exact_extra_pct": -0.017810493857142104,
+  "sum_window_returns": 23.40279283272819,
+  "continuous_return": 43.65034937546828,
+  "holdout_ret": -13.353784034901384
+ }
+]
